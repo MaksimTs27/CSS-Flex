@@ -1,0 +1,60 @@
+.taskFlexContainer {
+    display: flex;
+    background-color: beige;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.flexItem {
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    margin: 20px;
+    padding: 20px;
+}
+
+.taskFlexContainer2 {
+    display: flex;
+    background-color: rebeccapurple;
+    padding: 10px;
+    align-items: flex-end;
+    flex-direction: column;
+    
+}
+
+.taskFlexContainer3 {
+    display: flex;
+    background-color: lightblue;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.taskFlexContainer4 {
+    display: flex;
+    background-color: orange;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: stretch;
+}
+
+.flexItem2 {
+    color: gray;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    margin: 20px;
+    padding: 20px;
+    flex-grow: 1;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-image: url(space.webp);
+    background-position: center;
+}
+
